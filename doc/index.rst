@@ -1,6 +1,7 @@
-Stock Origin Module
-###################
+Stock Shipmen Shop Module
+#########################
 
-The stock origin module add related field in shipment out.
+The stock shipment shop module add a shop field in shipment out.
 
-See spanish doc about more details about this module.
+Get shop from origin shipment (if shipment origin is from a sale).
+
