@@ -1,5 +1,5 @@
-Stock Shipmen Shop Module
-#########################
+Stock Shipment Shop Module
+##########################
 
 The stock shipment shop module add a shop field in shipment out.
 
