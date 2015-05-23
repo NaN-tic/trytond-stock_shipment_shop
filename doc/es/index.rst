@@ -2,7 +2,7 @@
 Stock. Albarán y tienda
 =======================
 
-Añade al albarán de salida el campo "Tienda".
+Añade el campo "Tienda" a los albaranes de cliente y de devolución de cliente.
 
-El campo "Tienda" es calculado según el origen del albarán. En el caso
-que el albarán provenga de un pedido de venta, obtenemos el valor de la tienda.
+El campo "Tienda" se calcula a partir del origen del albarán si el albarán
+proviene de un pedido de venta.
