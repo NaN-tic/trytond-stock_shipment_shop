@@ -5,10 +5,10 @@ from trytond.model import fields
 from trytond.pool import PoolMeta
 
 __all__ = ['ShipmentOut', 'ShipmentOutReturn']
-__metaclass__ = PoolMeta
 
 
 class ShipmentOut:
+    __metaclass__ = PoolMeta
     __name__ = 'stock.shipment.out'
     shop = fields.Function(fields.Many2One('sale.shop', 'Shop'),
         'get_shop')
@@ -25,6 +25,7 @@ class ShipmentOut:
 
 
 class ShipmentOutReturn:
+    __metaclass__ = PoolMeta
     __name__ = 'stock.shipment.out.return'
     shop = fields.Function(fields.Many2One('sale.shop', 'Shop'),
         'get_shop')
